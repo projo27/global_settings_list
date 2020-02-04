@@ -70,6 +70,7 @@ public class GlobalSettingsListPlugin implements FlutterPlugin, MethodCallHandle
     listGlobal();
   }
 
+  @SuppressLint("Deprecation")
   private void listGlobal(){
       if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1)
           listGlobalSettings();
