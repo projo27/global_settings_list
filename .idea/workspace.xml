@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="paijo" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d209e524-c7bd-4666-b9c2-ad9e6609df94" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.pub/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/example/.pub/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="bc9be467" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/global_settings_list.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="55" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ios/Classes/GlobalSettingsListPlugin.h">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ios/Classes/SwiftGlobalSettingsListPlugin.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ios/Classes/GlobalSettingsListPlugin.m">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5">
+              <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/src/main/java/com/pln/global_settings_list/GlobalSettingsListPlugin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="454">
+              <caret line="78" column="27" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="27" />
+              <caret line="79" column="32" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="32" />
+              <caret line="80" column="36" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="36" />
+              <caret line="81" column="40" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="40" />
+              <caret line="82" column="39" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="39" />
+              <caret line="83" column="25" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="25" />
+              <caret line="84" column="30" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="30" />
+              <caret line="85" column="28" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="28" />
+              <caret line="86" column="26" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="26" />
+              <caret line="87" column="45" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="45" />
+              <caret line="88" column="28" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="28" />
+              <caret line="89" column="25" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="25" />
+              <caret line="90" column="44" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="44" />
+              <caret line="91" column="27" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="27" />
+              <caret line="92" column="34" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="34" />
+              <caret line="93" column="26" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="26" />
+              <caret line="94" column="39" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="39" />
+              <caret line="95" column="27" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="27" />
+              <caret line="96" column="34" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="34" />
+              <caret line="97" column="31" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="31" />
+              <caret line="98" column="26" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="26" />
+              <caret line="99" column="25" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="25" />
+              <caret line="100" column="26" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="26" />
+              <caret line="101" column="30" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="30" />
+              <caret line="102" column="40" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="40" />
+              <caret line="103" column="42" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="42" />
+              <caret line="104" column="40" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="40" />
+              <caret line="105" column="31" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="31" />
+              <caret line="106" column="33" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="33" />
+              <caret line="107" column="50" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="50" />
+              <caret line="108" column="41" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="41" />
+              <caret line="109" column="63" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="63" />
+              <caret line="110" column="55" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="55" />
+              <caret line="111" column="52" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="52" />
+              <caret line="112" column="43" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="43" />
+              <caret line="113" column="23" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="23" />
+              <caret line="114" column="33" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="33" />
+              <caret line="115" column="32" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="32" />
+              <caret line="116" column="38" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#866#882#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://F:/Android/sdk/sources/android-25/android/provider/Settings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="6654" column="30" selection-start-line="6654" selection-start-column="30" selection-end-line="6654" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Global</find>
+      <find>_</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>System</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/android/src/main/java/com/pln/global_settings_list/NonNull.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/pln/global_settings_list/GlobalSettingsListPlugin.java" />
+        <option value="$PROJECT_DIR$/lib/global_settings_list.dart" />
+        <option value="$PROJECT_DIR$/example/lib/main.dart" />
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/ios/Classes/SwiftGlobalSettingsListPlugin.swift" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="69" />
+    <option name="y" value="118" />
+    <option name="width" value="1037" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="global_settings_list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="global_settings_list" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="global_settings_list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="global_settings_list" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="global_settings_list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="global_settings_list" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="global_settings_list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="global_settings_list" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="global_settings_list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="global_settings_list" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="global_settings_list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="global_settings_list" type="462c0819:PsiDirectoryNode" />
+              <item name="ios" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="global_settings_list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="global_settings_list" type="462c0819:PsiDirectoryNode" />
+              <item name="ios" type="462c0819:PsiDirectoryNode" />
+              <item name="Classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.pln.global_settings_list" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d209e524-c7bd-4666-b9c2-ad9e6609df94" name="Default Changelist" comment="" />
+      <created>1580743309447</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580743309447</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Captures" order="1" side_tool="true" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Build Variants" order="5" side_tool="true" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Find" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32938388" />
+      <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.32938388" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.32938388" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.32938388" />
+      <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" order="4" weight="0.32938388" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.32938388" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32938388" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Hierarchy" weight="0.32928804" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Flutter Inspector" order="3" />
+      <window_info anchor="right" id="Flutter Outline" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/pln/global_settings_list/NonNull.java" />
+    <entry file="file://F:/Android/flutter/packages/flutter/lib/src/services/platform_channel.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="318" column="6" selection-start-line="318" selection-start-column="6" selection-end-line="318" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Android/sdk/sources/android-25/android/provider/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="6654" column="30" selection-start-line="6654" selection-start-column="30" selection-end-line="6654" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/pln/global_settings_list/GlobalSettingsListPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="78" column="27" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="27" />
+          <caret line="79" column="32" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="32" />
+          <caret line="80" column="36" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="36" />
+          <caret line="81" column="40" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="40" />
+          <caret line="82" column="39" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="39" />
+          <caret line="83" column="25" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="25" />
+          <caret line="84" column="30" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="30" />
+          <caret line="85" column="28" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="28" />
+          <caret line="86" column="26" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="26" />
+          <caret line="87" column="45" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="45" />
+          <caret line="88" column="28" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="28" />
+          <caret line="89" column="25" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="25" />
+          <caret line="90" column="44" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="44" />
+          <caret line="91" column="27" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="27" />
+          <caret line="92" column="34" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="34" />
+          <caret line="93" column="26" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="26" />
+          <caret line="94" column="39" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="39" />
+          <caret line="95" column="27" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="27" />
+          <caret line="96" column="34" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="34" />
+          <caret line="97" column="31" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="31" />
+          <caret line="98" column="26" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="26" />
+          <caret line="99" column="25" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="25" />
+          <caret line="100" column="26" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="26" />
+          <caret line="101" column="30" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="30" />
+          <caret line="102" column="40" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="40" />
+          <caret line="103" column="42" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="42" />
+          <caret line="104" column="40" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="40" />
+          <caret line="105" column="31" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="31" />
+          <caret line="106" column="33" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="33" />
+          <caret line="107" column="50" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="50" />
+          <caret line="108" column="41" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="41" />
+          <caret line="109" column="63" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="63" />
+          <caret line="110" column="55" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="55" />
+          <caret line="111" column="52" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="52" />
+          <caret line="112" column="43" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="43" />
+          <caret line="113" column="23" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="23" />
+          <caret line="114" column="33" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="33" />
+          <caret line="115" column="32" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="32" />
+          <caret line="116" column="38" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#866#882#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Classes/GlobalSettingsListPlugin.m">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Classes/GlobalSettingsListPlugin.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/global_settings_list.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="55" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Classes/SwiftGlobalSettingsListPlugin.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
