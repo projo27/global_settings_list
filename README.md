@@ -1,6 +1,6 @@
 # global_settings_list
 
-A new flutter plugin project.
+Flutter Plugin for getting List of Settings.Global on Android
 
 ## Getting Started
 

@@ -1,8 +1,7 @@
 name: global_settings_list
 description: Flutter Plugin for getting List of Settings.Global on Android
 version: 0.0.1
-author: nafi
-homepage:
+homepage: https://github.com/projo27/global_settings_list
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

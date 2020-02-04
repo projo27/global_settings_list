@@ -1,3 +1,4 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Just A Wrapper to Get Settings.Global from Android
+* Not Support for iOS
