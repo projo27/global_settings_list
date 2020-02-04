@@ -6,3 +6,7 @@
 ## 0.0.2
 
 * Build get List of Setting Global every execute MethodChannel
+
+## 0.0.2+1
+
+* Add Documentation of list settings

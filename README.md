@@ -2,13 +2,22 @@
 
 Flutter Plugin for getting List of Settings.Global on Android
 
-## Getting Started
+## How to install the plugin
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+edit *pubspec.yaml*
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```groovie
+dependencies:
+  flutter:
+    sdk: flutter
+
+  *global_settings_list: ^0.0.2*
+```
+
+run on terminal
+```bash
+> flutter pub get
+```
+
+and read the [Example Links](https://pub.dev/packages/global_settings_list#-example-tab-)
+

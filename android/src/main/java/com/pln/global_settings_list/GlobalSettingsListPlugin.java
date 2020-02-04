@@ -63,7 +63,6 @@ public class GlobalSettingsListPlugin implements FlutterPlugin, MethodCallHandle
   }
 
   private void setupMethodChannel(BinaryMessenger messenger, ContentResolver contentResolver){
-    Log.d("Paijo", "Setup Method Channel");
     channel = new MethodChannel(messenger, "pln.com/global_settings_list");
     this.contentResolver = contentResolver;
     channel.setMethodCallHandler(this);
