@@ -28,7 +28,6 @@ class _MyAppState extends State<MyApp> {
 
     try {
       autoTimezone = await GlobalSettingsList.autoTimeZone;
-      await GlobalSettingsList;
       list = await GlobalSettingsList.list;
       //autoTime = await GlobalSettingsList.autoTime;
     } on PlatformException {

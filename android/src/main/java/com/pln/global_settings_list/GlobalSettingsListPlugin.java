@@ -41,6 +41,7 @@ public class GlobalSettingsListPlugin implements FlutterPlugin, MethodCallHandle
   @SuppressLint("MethodCall")
   @Override
   public void onMethodCall(MethodCall call, MethodChannel.Result result) {
+      listGlobal();
     if(call.method.equals("get")){
         result.success(list.get(call.argument("setting_name").toString().toLowerCase()));
     }
@@ -65,13 +66,15 @@ public class GlobalSettingsListPlugin implements FlutterPlugin, MethodCallHandle
     Log.d("Paijo", "Setup Method Channel");
     channel = new MethodChannel(messenger, "pln.com/global_settings_list");
     this.contentResolver = contentResolver;
-
-    if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1)
-        listGlobalSettings();
-    else
-        listGlobalSettingsOld();
-
     channel.setMethodCallHandler(this);
+    listGlobal();
+  }
+
+  private void listGlobal(){
+      if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1)
+          listGlobalSettings();
+      else
+          listGlobalSettingsOld();
   }
 
   @TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR1)
