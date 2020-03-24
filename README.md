@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  *global_settings_list: ^0.0.2*
+  global_settings_list: ^0.0.2
 ```
 
 run on terminal
