@@ -7,6 +7,10 @@
 
 * Build get List of Setting Global every execute MethodChannel
 
-## 0.0.2+1
+## 0.0.3
 
 * Add Documentation of list settings
+
+## 0.1.1
+
+* Add Null Safety
