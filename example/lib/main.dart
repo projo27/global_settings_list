@@ -1,19 +1,22 @@
-import 'package:flutter/material.dart';
 import 'dart:async';
 
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:global_settings_list/global_settings_list.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
 class MyApp extends StatefulWidget {
+  const MyApp({super.key});
+
   @override
-  _MyAppState createState() => _MyAppState();
+  MyAppState createState() => MyAppState();
 }
 
-class _MyAppState extends State<MyApp> {
-  String _platformVersion = 'Unknown', _autoTimezone, _autoTime, _daftar = "";
-  Map<String, dynamic> _list;
+class MyAppState extends State<MyApp> {
+  String? _platformVersion = 'Unknown';
+  String? _autoTimezone, _autoTime;
+  String _daftar = "";
 
   @override
   void initState() {
@@ -23,8 +26,8 @@ class _MyAppState extends State<MyApp> {
 
   // Platform messages are asynchronous, so we initialize in an async method.
   Future<void> initPlatformState() async {
-    String platformVersion, autoTimezone, autoTime;
-    Map<String, dynamic> list;
+    String? platformVersion, autoTimezone, autoTime;
+    Map<String, dynamic>? list;
 
     try {
       autoTimezone = await GlobalSettingsList.autoTimeZone;
@@ -44,10 +47,9 @@ class _MyAppState extends State<MyApp> {
       _platformVersion = platformVersion;
       _autoTimezone = autoTimezone;
       _autoTime = autoTime;
-      _list = list;
       _daftar = "";
 
-      list.forEach((k, v) {
+      list?.forEach((k, v) {
         _daftar += "$k : $v \n";
       });
     });
@@ -66,13 +68,11 @@ class _MyAppState extends State<MyApp> {
               Text('Running on: $_platformVersion\n'),
               Text('Auto Timezone : $_autoTimezone'),
               Text('Auto Time : $_autoTime'),
-              RaisedButton(
-                child: Text("Load"),
+              ElevatedButton(
                 onPressed: initPlatformState,
+                child: const Text("Load"),
               ),
-              Expanded(
-                  flex: 1,
-                  child: SingleChildScrollView(child: Text(_daftar ?? "tes")))
+              Expanded(flex: 1, child: SingleChildScrollView(child: Text(_daftar)))
             ],
           ),
         ),
