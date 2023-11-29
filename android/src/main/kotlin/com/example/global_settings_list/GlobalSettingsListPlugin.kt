@@ -108,8 +108,10 @@ class GlobalSettingsListPlugin : FlutterPlugin, MethodCallHandler {
                 Settings.Global.CONTACT_METADATA_SYNC_ENABLED
             )
         }
-        list["data_roaming"] =
-            Settings.Global.getString(contentResolver, Settings.Global.DATA_ROAMING)
+        if(Build.VERSION.SDK_INT <= 32) {
+            list["data_roaming"] =
+                Settings.System.getString(contentResolver, Settings.Global.DATA_ROAMING)
+        }
         list["debug_app"] = Settings.Global.getString(contentResolver, Settings.Global.DEBUG_APP)
         list["development_settings_enabled"] =
             Settings.Global.getString(contentResolver, Settings.Global.DEVELOPMENT_SETTINGS_ENABLED)
@@ -211,8 +213,10 @@ class GlobalSettingsListPlugin : FlutterPlugin, MethodCallHandler {
                     Settings.Global.CONTACT_METADATA_SYNC_ENABLED
                 )
         }
-        list["data_roaming"] =
-            Settings.System.getString(contentResolver, Settings.System.DATA_ROAMING)
+        if(Build.VERSION.SDK_INT <= 32) {
+            list["data_roaming"] =
+                Settings.System.getString(contentResolver, Settings.Global.DATA_ROAMING)
+        }
         list["debug_app"] = Settings.System.getString(contentResolver, Settings.System.DEBUG_APP)
         list["development_settings_enabled"] =
             Settings.System.getString(contentResolver, Settings.Secure.DEVELOPMENT_SETTINGS_ENABLED)
