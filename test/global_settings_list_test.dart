@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:global_settings_list/global_settings_list.dart';
+import 'package:global_settings_list/src/global_settings_list.dart';
 
 void main() {
   const MethodChannel channel = MethodChannel('global_settings_list');
